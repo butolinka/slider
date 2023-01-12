@@ -1,0 +1,42 @@
+body{
+    background-color: #524A4E;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to bottom, #524A4E,#FFC0D3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 60px;
+
+}
+#btn{
+    background-color: #FFC0D3;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: #524A4E;
+}
+
+@media all and (max-width:800px){
+    .pictures{
+        width: 300px;
+        height: 500px;
+    }
+h1, #btn{
+    font-size: 30px;
+}
+}
+
+@media all and (max-width:500px){
+    .pictures{
+        width: 200px;
+        height: 450px;
+    }
+h1, #btn{
+    font-size: 25px;
+}
+}
